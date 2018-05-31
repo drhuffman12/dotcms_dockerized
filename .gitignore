@@ -1,0 +1,6 @@
+!.keep
+
+/webapp/bin/
+/webapp/docs/
+/webapp/dotserver/
+/webapp/plugins/
