@@ -1,0 +1,13 @@
+version: '3'
+services:
+  webapp:
+    build: .
+    ports:
+      - 80:80
+      - 8080:8080
+      - 443:443
+      - 8443:8443
+    volumes:
+      - ./webapp:/webapp
+      # - ./logs:/webapp/dotserver/tomcat-X.xx/webapps/ROOT/dotsecure/logs
+      - ./logs:/webapp/dotserver/tomcat-8.0.18/webapps/ROOT/dotsecure/logs
